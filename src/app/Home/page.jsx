@@ -32,7 +32,7 @@ const Page = ({ lData }) => {
   return (
     <>
       <AnimatePresence mode="wait">
-       
+        {/* {isLoading && <Preloader counter={isCounter} />} */}
       </AnimatePresence>
       <HomeBanner loadImage={handleLoad} counter={handleCounter} />
     

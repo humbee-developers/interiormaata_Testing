@@ -97,7 +97,7 @@ bottom: 3rem;
 .interiormaata {
   position: absolute;
   font-size: 3.5vw;
-  z-index: 99;
+  z-index: 1;
   font-family: "Roseritta";
   left: 5rem;
   color: #791125;
@@ -163,7 +163,7 @@ right:5rem;
   position: absolute;
   font-size: 4.5vw;
   left: 5rem;
-  z-index: 99;
+  z-index: 1;
   font-family: "Roseritta";
   color: #ffffff;
   bottom: 10rem;
