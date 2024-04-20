@@ -28,7 +28,6 @@ const Page = ({ lData }) => {
     setCounter(data);
   }
   
-
   return (
     <>
       <AnimatePresence mode="wait">
