@@ -1,0 +1,151 @@
+.introduction {
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  z-index: 99999;
+  background-color: #cc7d45;
+}
+
+.counterOuter {
+  display: flex;
+  height: 50%;
+  align-items: flex-end;
+}
+
+.progress {
+  color: #bbbcc0;
+  font-size: 100px;
+  z-index: 99;
+  opacity: 1;
+}
+
+.percentageCounter {
+  color: #bbbcc0;
+  font-family: "NeueMontreal-Regular";
+  font-size: 9rem;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  text-align: end;
+}
+
+.introduction .text {
+  display: flex;
+  color: white;
+  height: 50%;
+  text-decoration: none;
+  font-size: 5.5vw;
+  gap: 1rem;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: "NeueMontreal-Regular";
+  align-items: flex-end;
+}
+
+.moment {
+  display: flex;
+  position: absolute;
+  top: 1rem;
+  gap: 2rem;
+  right: 3rem;
+}
+
+.loading {
+  display: flex;
+  color: white;
+  font-size: 50px;
+  font-family: "NeueMontreal-Regular";
+  align-items: center;
+}
+
+.textInner {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+.loader {
+  display: flex;
+  align-items: center;
+}
+
+.bar {
+  display: inline-block;
+  width: 3px;
+  height: 20px;
+  background-color: #bbbcc0;
+  border-radius: 10px;
+  animation: scale-up4 1s linear infinite;
+}
+
+.bar:nth-child(2) {
+  height: 35px;
+  margin: 0 5px;
+  animation-delay: 0.25s;
+}
+
+.bar:nth-child(3) {
+  animation-delay: 0.5s;
+}
+
+@keyframes scale-up4 {
+  20% {
+    background-color: #ffff;
+    transform: scaleY(1.5);
+  }
+
+  40% {
+    transform: scaleY(1);
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1920px) {
+  .moment {
+    display: flex;
+    position: absolute;
+    top: 1rem;
+    gap: 2rem;
+    right: 7rem;
+  }
+
+  .loading {
+    display: flex;
+    color: white;
+    font-size: 50px;
+    font-family: "NeueMontreal-Regular";
+    align-items: center;
+  }
+}
+
+
+@media(min-width:200px) and (max-width:520px){
+  .percentageCounter {
+    color: #bbbcc0;
+    font-family: "NeueMontreal-Regular";
+    font-size: 6rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: end;
+  }
+
+  .moment {
+    display: flex;
+    position: absolute;
+    top: 1rem;
+    width: 100%;
+    gap: 2rem;
+    right: -4rem;
+  }
+
+  .loading {
+    display: flex;
+    color: white;
+    font-size: 40px;
+    font-family: "NeueMontreal-Regular";
+    align-items: center;
+  }
+  
+
+}
