@@ -27,7 +27,7 @@ const Page = ({ lData }) => {
     console.log("cc", data);
     setCounter(data);
   }
-  
+
   return (
     <>
       <AnimatePresence mode="wait">
