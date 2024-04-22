@@ -219,7 +219,7 @@ const Animation = ({ loadImage, counter }) => {
         />
       </motion.div>
       <video className={styles.videoBg}  width="750" height="500"  autoPlay loop muted>
-      <source src="./video/sample.mp4" type="video/mp4"/>
+      <source src="./video/testing.mp4" type="video/mp4"/>
      </video>
       <MusicPlayer />
     </section>
