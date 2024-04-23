@@ -103,7 +103,7 @@ object-fit: cover;
 
 }
 
-.buttonX span {
+.buttonX a {
   position: relative;
 }
 

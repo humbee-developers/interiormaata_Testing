@@ -1,9 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
+import { useInView } from "react-intersection-observer";
+import { motion, useAnimation } from "framer-motion";
 import MusicPlayer from "@/Components/musicPlayer/page";
 import styles from "@/Components/Home_page_Banner/Banner.module.css";
-
+import "./banner.css"
 gsap.registerPlugin(ScrollTrigger);
 
 const Animation = ({ loadImage, counter }) => {
@@ -148,6 +150,30 @@ const Animation = ({ loadImage, counter }) => {
     };
   }, []);
 
+
+
+
+  const [refButton, inViewButton] = useInView({
+    triggerOnce: false,
+  });
+  const controlsx = useAnimation();
+
+  const variants = {
+    hidden: { opacity: 0, y: 5 }, // Move the button down initially
+    visible: { opacity: 1, y: -130 }, // Move the button up to its original position
+  };
+
+  useEffect(() => {
+    if (inViewButton) {
+      controlsx.start("visible");
+    }
+  }, [inViewButton, controlsx]);
+
+
+
+
+
+
   return (
     <section>
       <section ref={sectionRef}>
@@ -170,6 +196,21 @@ const Animation = ({ loadImage, counter }) => {
       >
         <source src="./video/testing2.mp4" type="video/mp4" />
       </video>
+
+      <motion.div
+        ref={refButton}
+        initial="hidden"
+        animate={inViewButton ? "visible" : "hidden"}
+        variants={variants}
+        transition={{ duration: 0.6, delay: 0 }}
+        // className={styles.buttonOuter}
+      >
+        <button className={styles.buttonX} role="button">
+        <a href="tel:+917404040286" className={styles.textX}>Contact Us | +917404040286</a>
+      </button>
+      </motion.div>
+
+
       <MusicPlayer />
     </section>
   );
