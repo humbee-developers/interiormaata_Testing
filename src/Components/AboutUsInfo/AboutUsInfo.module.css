@@ -18,13 +18,14 @@
 }
 
 .gallery {
-  width: 70%;
+  width: 90%;
 }
 
 .project p {
-  font-size: 55px;
+  font-size: 50px;
   color: #7f7047;
   font-family:"Dream Avenue";
+  text-transform: uppercase;
   margin: 0px;
 }
 .project p:nth-of-type(1) {
@@ -50,31 +51,41 @@
   height: 9vh;
 }
 
+@media(min-width:1600px) and (max-width:1920px){
+  .project p {
+    font-size: 65px;
+    color: #7f7047;
+    font-family:"Dream Avenue";
+    text-transform: uppercase;
+    margin: 0px;
+  }
+}
+
 @media (max-width: 1450px) {
   .project img {
     width: 9vw;
   }
   .project p {
-    font-size: 50px;
+    font-size: 55px;
     color: #7f7047;
     margin: 0px;
   }
 }
 @media(max-width: 1300px) {
   .project p {
-    font-size: 45px;
+    font-size: 55px;
   }
 }
 @media(min-width:1025px) and  (max-width: 1199px) {
   .project p {
-    font-size: 39px;
+    font-size: 45px;
   }
 }
 
 
 @media(min-width:769px) and  (max-width: 1024px) {
   .project p {
-    font-size: 5vw;
+    font-size: 4.6vw;
   }
 
   .project img {
@@ -111,7 +122,7 @@
 
 @media (min-width: 501px) and (max-width:767px) {
   .project p {
-    font-size: 24px;
+    font-size: 27px;
   }
   .testingImage {
     width: 11vw;
@@ -129,7 +140,7 @@
 
 @media (max-width: 500px) {
   .project p {
-    font-size: 23px;
+    font-size: 19px;
   }
   .testingImage {
     width: 11vw;
@@ -146,7 +157,7 @@
 }
 @media (max-width: 420px) {
   .project p {
-    font-size: 20px;
+    font-size: 19px;
   }
 
   .testingImage {
@@ -169,7 +180,7 @@
 }
 @media (max-width: 320px) {
   .project p {
-    font-size: 17px;
+    font-size: 15px;
   }
 
   .project img {
