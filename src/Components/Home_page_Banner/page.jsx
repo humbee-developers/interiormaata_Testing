@@ -43,15 +43,17 @@ const Animation = ({ loadImage, counter }) => {
       const availableHeight = window.innerHeight;
       const heightByWidth = availableWidth / aspectRatio;
 
-      if (availableWidth < 1024) {
-        canvas.style.width = "1301px"; // Set canvas width to 1301px width to be given according screen Sizes
-        canvas.style.height = "100vh"; // Set canvas height to window height or any height specified
-      } else {
-        canvas.width = originalWidth;
-        canvas.height = originalHeight;
-        canvas.style.width = "100%"; // Set canvas width to 100% of container
-        canvas.style.height = "100vh"; // this will  Allow canvas to maintain aspect ratio
-      }
+         if (availableWidth < 1024) {
+      canvas.width = originalWidth / 2; // Adjust canvas width for mobile screens
+      canvas.height = originalHeight / 2; // Adjust canvas height for mobile screens
+      canvas.style.width = "100%"; // Set canvas width to 100% of container
+      canvas.style.height = "auto"; // Allow canvas height to adjust based on aspect ratio
+    } else {
+      canvas.width = originalWidth;
+      canvas.height = originalHeight;
+      canvas.style.width = "100%"; // Set canvas width to 100% of container
+      canvas.style.height = "auto"; // Allow canvas height to adjust based on aspect ratio
+    }
     };
     setCanvasSize();
     window.addEventListener("resize", setCanvasSize);
