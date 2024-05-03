@@ -28,7 +28,7 @@
 }
 .adds {
   color: #000000;
-  font-family: "NeueMontreal-Regular";
+  font-family: var(--font-poppins);
   text-decoration: underline;
 }
 .footer_home {
@@ -88,7 +88,7 @@
 }
 .phone_no {
   color: #cc7d45;
-  font-family: "NeueMontreal-Regular";
+  font-family: var(--font-poppins);
   font-size: 35.075px;
   font-style: normal;
   font-weight: 400;
@@ -114,9 +114,10 @@
 .footer_address {
   color: #7f7047;
   opacity: 0.8;
-  font-family: "NeueMontreal-Light";
+  /* font-family: var(--font-poppins); */
   font-size: 35.075px;
   font-style: normal;
+  font-family: var(--font-poppins);
   font-weight: 200;
   line-height: normal;
   text-transform: capitalize;
@@ -124,7 +125,7 @@
 .footer_website {
   padding-bottom: 1rem;
   color: #fff;
-  font-family: "NeueMontreal-Regular";
+  font-family: var(--font-poppins);
   text-decoration: none;
   font-size: 22px;
   font-style: normal;
@@ -134,9 +135,9 @@
 }
 .footer_home,
 .footer_Search {
-  padding-top: 0.7rem;
+  /* padding-top: 0.7rem; */
   color: #7f7047;
-  font-family: "NeueMontreal-Light";
+  font-family: var(--font-poppins);
   font-size: 20px;
   font-style: normal;
   font-weight: 200;
@@ -148,7 +149,7 @@
   display: flex;
   justify-content: space-between;
   color: #000000;
-  font-family: "NeueMontreal-Light";
+  font-family: var(--font-poppins);
   font-size: 18px;
   font-style: normal;
   align-items: center;
@@ -160,13 +161,14 @@
   border-bottom: 1px solid #7f7047;
 }
 .footer_last_Section {
-  color: #2a2a2a;
-  font-family: "NeueMontreal-Regular";
+  color: #353434;
+  font-family: var(--font-poppins);
   font-size: 181px;
+  line-height: 14rem;
   font-style: normal;
   font-weight: 400;
   width: 100%;
-  line-height: normal;
+  /* line-height: normal; */
   text-transform: uppercase;
 }
 .footer_social_media {
@@ -183,12 +185,12 @@
 
 @media (min-width: 1600px) and (max-width: 1920px) {
   .footer_last_Section {
-    font-family: "NeueMontreal-Regular";
+    font-family: var(--font-poppins);
     font-size: 231px;
     font-style: normal;
     font-weight: 400;
     width: 100%;
-    line-height: normal;
+    line-height: 16.5rem;
     text-transform: uppercase;
   }
 
@@ -208,7 +210,7 @@
     display: flex;
     justify-content: space-between;
     color: #000000;
-    font-family: "NeueMontreal-Light";
+    font-family: var(--font-poppins);
     font-size: 22px;
     font-style: normal;
     align-items: center;
@@ -247,7 +249,7 @@
     display: flex;
     justify-content: space-between;
     color: #000000;
-    font-family: "NeueMontreal-Light";
+    font-family: var(--font-poppins);
     font-size: 17px;
     font-style: normal;
     align-items: center;
