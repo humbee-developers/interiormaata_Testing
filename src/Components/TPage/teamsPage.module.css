@@ -16,7 +16,7 @@
 .teamPage_content2 {
   color: #000;
   text-align: center;
-  font-family: "NeueMontreal-Regular";
+  font-family: var(--font-poppins);
   font-size: 22px;
   font-style: normal;
   font-weight: 400;
@@ -69,7 +69,7 @@
 .teamPage_content4_Text {
   width: 45%;
   color: #000;
-  font-family: "NeueMontreal-Regular";
+  font-family: var(--font-poppins);
   font-size: 15.616px;
   font-style: normal;
   font-weight: 400;
@@ -119,7 +119,7 @@
   .teamPage_content4_Text {
     width: 45%;
     color: #000;
-    font-family: "NeueMontreal-Regular";
+    font-family: var(--font-poppins);
     font-size: 17.616px;
     font-style: normal;
     font-weight: 400;

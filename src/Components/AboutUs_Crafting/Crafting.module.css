@@ -41,7 +41,7 @@
 
 .Crafting_Section_Left {
   color: #000;
-  font-family: 'NeueMontreal-Regular';
+  font-family: var(--font-poppins);
   font-size: 41px;
   font-style: normal;
   font-weight: 400;
@@ -52,7 +52,7 @@
 
 .Crafting_Section_Right {
   color: #000;
-  font-family: 'NeueMontreal-Regular';
+  font-family: var(--font-poppins);
   font-size: 15px;
   font-style: italic;
   font-weight: 400;

@@ -29,7 +29,7 @@
   background-color: #cc7d45;
   border: none;
   color: white;
-  font-family: "NeueMontreal-Regular";
+  font-family: var(--font-poppins);
   font-size: 22px;
   font-weight: 400;
   cursor: pointer;
@@ -44,7 +44,7 @@
   border: none;
   color: white;
   font-size: 22px;
-  font-family: "NeueMontreal-Regular";
+  font-family: var(--font-poppins);
   font-weight: 400;
   cursor: pointer;
   letter-spacing: 0.44px;
@@ -58,7 +58,7 @@
   color: white;
   cursor: pointer;
   font-size: 22px;
-  font-family: "NeueMontreal-Regular";
+  font-family: var(--font-poppins);
   font-weight: 400;
   letter-spacing: 0.44px;
   padding: 0.9rem 4rem;
@@ -69,7 +69,7 @@
 .contentSection {
   padding: 2rem 4rem 4rem;
   display: flex;
-  font-family: "NeueMontreal-Regular";
+  font-family: var(--font-poppins);
   justify-content: space-around;
 }
 
@@ -89,7 +89,7 @@
   width: 80%;
   font-size: 24px;
   font-weight: 300;
-  font-family: "NeueMontreal-Light";
+  font-family: var(--font-poppins);
   letter-spacing: 0.48px;
   word-wrap: break-word;
   margin: 2rem 0;
@@ -104,7 +104,7 @@
   color: #cc7d45;
   background-color: transparent;
   width: fit-content;
-  font-family: "NeueMontreal-Regular";
+  font-family: var(--font-poppins);
   font-size: 12px;
   cursor: pointer;
   font-style: normal;
@@ -171,7 +171,7 @@
   color: #7f7047;
   background-color: transparent;
   width: fit-content;
-  font-family: "NeueMontreal-Regular";
+  font-family: var(--font-poppins);
   font-size: 12px;
   cursor: pointer;
   font-style: normal;
@@ -237,7 +237,7 @@
   color: #8d4c1e;
   background-color: transparent;
   width: fit-content;
-  font-family: "NeueMontreal-Regular";
+  font-family: var(--font-poppins);
   font-size: 12px;
   cursor: pointer;
   font-style: normal;
@@ -327,7 +327,7 @@
   .contentSection {
     padding: 2rem 4rem 6rem;
     display: flex;
-    font-family: "NeueMontreal-Regular";
+    font-family: var(--font-poppins);
     justify-content: space-around;
   }
   .onlineConsultancy_Innersection {

@@ -13,7 +13,7 @@
 .coming-soon {
   font-size: 12px;
 
-  font-family: "NeueMontreal-Regular";
+  font-family: var(--font-poppins);
   margin-left: 5px; /* Adjust as needed */
   /* color: rgb(0, 0, 0); Or any other color you prefer */
 }
@@ -35,7 +35,7 @@
 }
 .interiormaata_openMenu_Text {
   font-size: 30px;
-  font-family: "NeueMontreal-Regular";
+  font-family: var(--font-poppins);
   text-transform: uppercase;
   color: #fff;
 }

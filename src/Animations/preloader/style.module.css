@@ -21,7 +21,7 @@
 
 .percentageCounter {
   color: #bbbcc0;
-  font-family: "NeueMontreal-Regular";
+  font-family: var(--font-poppins);
   font-size: 9rem;
   position: absolute;
   right: 0;
@@ -38,7 +38,7 @@
   gap: 1rem;
   justify-content: center;
   text-transform: uppercase;
-  font-family: "NeueMontreal-Regular";
+  font-family: var(--font-poppins);
   align-items: flex-end;
 }
 
@@ -54,7 +54,7 @@
   display: flex;
   color: white;
   font-size: 50px;
-  font-family: "NeueMontreal-Regular";
+  font-family: var(--font-poppins);
   align-items: center;
 }
 
@@ -113,7 +113,7 @@
     display: flex;
     color: white;
     font-size: 50px;
-    font-family: "NeueMontreal-Regular";
+    font-family: var(--font-poppins);
     align-items: center;
   }
 }
@@ -122,7 +122,7 @@
 @media(min-width:200px) and (max-width:520px){
   .percentageCounter {
     color: #bbbcc0;
-    font-family: "NeueMontreal-Regular";
+    font-family: var(--font-poppins);
     font-size: 6rem;
     position: absolute;
     right: 0;
@@ -143,7 +143,7 @@
     display: flex;
     color: white;
     font-size: 40px;
-    font-family: "NeueMontreal-Regular";
+    font-family: var(--font-poppins);
     align-items: center;
   }
   

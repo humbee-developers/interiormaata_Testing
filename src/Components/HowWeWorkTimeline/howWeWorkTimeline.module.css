@@ -67,7 +67,7 @@
 .timline1_meet_text_inner,
 .timline1_meet_text_inner2 {
   color: #000;
-  font-family: 'NeueMontreal-Regular';
+  font-family: var(--font-poppins);
   font-size: 15.616px;
   font-style: normal;
   font-weight: 400;

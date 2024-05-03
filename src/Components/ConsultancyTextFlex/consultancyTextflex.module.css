@@ -17,7 +17,7 @@
 }
 .online_consultancy_text {
   color: #7f7047;
-  font-family: "NeueMontreal-Regular";
+  font-family: var(--font-poppins);
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -65,7 +65,7 @@
 }
 .Services_header_info {
   color: #cc7d45;
-  font-family: "NeueMontreal-Regular";
+  font-family: var(--font-poppins);
   font-size: 15px;
   font-style: normal;
   font-weight: 400;

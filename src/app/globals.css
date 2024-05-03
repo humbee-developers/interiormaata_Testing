@@ -89,12 +89,12 @@ select:-webkit-autofill {
   font-weight: normal;
 }
 @font-face {
-  font-family: "NeueMontreal-Regular";
+  font-family: var(--font-poppins);
   src: local("NeueMontreal-Regular"),
     url("../fonts/NeueMontreal-Regular.otf") format("truetype");
 }
 @font-face {
-  font-family: "NeueMontreal-Light";
+  font-family: var(--font-poppins);
   src: local("NeueMontreal-Light"),
     url("../fonts/NeueMontreal-Light.otf") format("truetype");
 }
