@@ -47,7 +47,7 @@ const Animation = ({ loadImage, counter }) => {
       canvas.width = originalWidth / 2; // Adjust canvas width for mobile screens
       canvas.height = originalHeight / 2; // Adjust canvas height for mobile screens
       canvas.style.width = "100%"; // Set canvas width to 100% of container
-      canvas.style.height = "auto"; // Allow canvas height to adjust based on aspect ratio
+      canvas.style.height = "100vh"; // Allow canvas height to adjust based on aspect ratio
     } else {
       canvas.width = originalWidth;
       canvas.height = originalHeight;
